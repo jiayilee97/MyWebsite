@@ -10,7 +10,7 @@ module.exports = {
       key: '/media/leejiayi/DATA/ubuntu/aws_others/MyWebsite/mywebsitekeypair.pem',
       ref: 'origin/master',
       repo: 'git@github.com:jiayilee97/MyWebsite.git',
-      path: '/home/ubuntu/nodejs/server/git2',
+      path: '/home/ubuntu/nodejs/server/MyWebsite',
       'post-deploy': 'npm install && pm2 startOrRestart ecosystem.config.js'
     }
   }
